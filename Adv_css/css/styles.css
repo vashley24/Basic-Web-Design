@@ -19,17 +19,36 @@ img {
 nav {
     text-align: center;
     margin: 20px 0;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-nav a {
-    font-size: 24px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+display: block;
+color: antiquewhite;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+margin: 0 20px;
+width: 125px;
+height: 40px;
+line-height: 40px;
+}
+
+nav a:hover 
+{
+    background-color: blanchedalmond;
     color: black;
-    margin: 0 20px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: none;
 }
 
 h1, h2, h3, footer {
