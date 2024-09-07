@@ -4,16 +4,27 @@ body {
 
 #container {
     background-color: azure;
-    width: 1200px;
+    width: 65%S;
     margin: 20px auto;
     border: 2px solid black;
     padding: 20px;
 }
 
+#banner {
+    width: 100%;
+}
+
+.heading_style {
+    text-shadow: 2px 1px 2px #ca6e6e;
+}
+.movie_post {
+    width: 40%;
+}
+
 img {
     display: block;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
 }
 
 nav {
